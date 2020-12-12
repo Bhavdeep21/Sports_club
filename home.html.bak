@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style type="text/css">
+		.w3-left, .w3-right, .w3-badge{
+			cursor:pointer;
+		}
+		.w3-badge{
+			height:13px;
+			width:13px;
+			padding:0
+		}
+    	body{
+    		width:80%;
+    		margin: auto;
+    		max-width: 80%;
+    	}
+    	#nav{
+    		height: auto;
+    		padding-top: 30px;
+    	}
+    	.navi{
+    	/*position: fixed;*/
+    	height: 80px;
+        margin: auto;
+        background-color: #282828;
+        border-radius: 3px;
+      }
+      .imgContainer{
+      	height: 80px;
+        margin: 10px auto;
+        background-color: #282828;
+        border-radius: 3px;
+
+      }
+      a{
+      	text-decoration: none;
+      	color: white;
+      	padding: 5px
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navi">
+      <img src="logo.png" alt="Apex Sports Club Logo" height="80px" width="100px" align="left">
+      <p id="nav" align="right"><a href="#">About</a>&nbsp  <a href="#">Sports</a>&nbsp  <a href="#">Subscription</a>&nbsp  <a href="#">Contact us</a></p>
+    </div>
+    <div>
+	
+    </div>
+  </body>
+  <script>
+  	
+  </script>
+</html>
